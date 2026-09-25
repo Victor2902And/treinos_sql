@@ -1,2 +1,6 @@
+-- 6. Lista de produtos com nome que termina com “Lover”;
+
+
 SELECT *
-FROM clientes 
+FROM produtos
+where DescNomeProduto LIKE '%Lover'
